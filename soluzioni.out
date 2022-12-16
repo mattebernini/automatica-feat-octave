@@ -1,0 +1,62 @@
+
+*******************
+1/s
+*******************
+p = 0
+z = [](0x1)
+poli:
+0
+zeri:
+[](0x1)
+k:
+[](0x1)
+GM e PM:
+90
+Inf
+errori a regime (gradino, rampa, impulso):
+NaN
+NaN
+*******************
+(s+1)/((s+2)*(s-3))
+*******************
+p =
+
+   3
+  -2
+
+z = -1
+poli:
+   3
+  -2
+zeri:
+-1
+k:
+[](0x1)
+GM e PM:
+180
+Inf
+errori a regime (gradino, rampa, impulso):
+NaN
+0
+*******************
+1/((s+1)*s)
+*******************
+p =
+
+  -1
+   0
+
+z = [](0x1)
+poli:
+  -1
+   0
+zeri:
+[](0x1)
+k:
+0.2500
+GM e PM:
+51.827
+Inf
+errori a regime (gradino, rampa, impulso):
+NaN
+NaN
