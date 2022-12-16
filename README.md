@@ -2,7 +2,7 @@
 Un piccolo aiuto per risolvere esercizi di Fondamenti di Automatica (Ingegneria Informatica, Unipi) e per capire meglio ciò che viene studiato.
 
 ## Installazione
-git clone 
+git clone https://github.com/mattebernini/automatica-feat-octave
 
 (Sviluppato e testato su Ubuntu 22.04)
 
