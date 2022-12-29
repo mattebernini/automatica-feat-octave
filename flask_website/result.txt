@@ -1,0 +1,10 @@
+poli
+1
+zeri
+[](0x1)
+k critico
+[](0x1)
+margine di modulo
+0
+margine di fase
+Inf

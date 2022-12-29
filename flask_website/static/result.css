@@ -1,0 +1,46 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Bode plot styles */
+
+img {
+    width: 33%;
+    height: auto;
+}
+
+
+table {
+    width: 100%;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Make the content fit on a single page */
+
+img {
+    page-break-inside: avoid;
+}
+
+table {
+    page-break-inside: avoid;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondamenti di Automatica</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='result.css') }}">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+</head>
+<body>
+    <h1 id="fdt">$${ G = {{ transfer_function }} }$$</h1>
+    <img class="bode-plot" src="{{ url_for('static', filename='bode_plot.jpg') }}" alt="Bode Plot">
+    <img class="Nyquist-diagram" src="{{ url_for('static', filename='nyquist_plot.jpg') }}" alt="Bode Plot">
+    <img class="rlocus" src="{{ url_for('static', filename='rlocus_plot.jpg') }}" alt="Bode Plot">
+    <table>
+        {% for key, value in numeric_result.items() %}
+            <tr>
+                <th> {{ key }} </th>
+                <td> {{ value }} </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
